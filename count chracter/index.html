@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+
+<div class="container">
+    <textarea id="text-area" placeholder="Type something..."></textarea>
+    <p id="character-counter">Character Count: 0</p>
+</div>
+
+<script>
+    let textArea = document.querySelector("#text-area");
+let counter = document.querySelector("#character-counter");
+
+textArea.addEventListener('input', (updateCount));
+    function updateCount (){
+        const inputText = textArea.value;
+        const textCount = inputText.length;
+        console.log(textCount);
+
+        counter.textContent = `character count : ${textCount}`;
+    }
+
+</script>
+
+<!-- <script src="script.js"></script> -->
+</body>
+</html>

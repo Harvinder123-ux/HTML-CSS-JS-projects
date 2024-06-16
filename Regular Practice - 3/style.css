@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.catImagesContainer{
+    margin-top: 1%;
+    margin-left: 15%;
+    /* position: absolute; */
+    
+}
+
+.container {
+    width: 70%;
+    height: 40vmax;
+    background-color: rgb(14, 186, 233);
+    display: flex;
+
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 29%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: rgb(1, 255, 1);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+#slideshow img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.checkBoxConatainer{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 7%;
+}

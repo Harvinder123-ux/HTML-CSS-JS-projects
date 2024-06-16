@@ -1,0 +1,232 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 75%;
+  height: 40vmax;
+  /* border: 2px solid black; */
+  margin-top: 2%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 2, 253);
+  position: relative;
+  box-shadow: 0 30px 30px 0px rgba(0, 0, 0, 0.306);
+}
+/* 
+.dark, .container {
+    box-shadow: 0 0px 30px 30px rgba(1, 208, 254, 0.655);
+
+} */
+.heroImg {
+  width: 100%;
+  height: 40vmax;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.dark .heroImg {
+  background-image: url("radhe_radhe\(4\).jpg");
+  background-size: cover;
+  opacity: 0.99;
+}
+
+.light,
+.heroImg {
+}
+
+.img {
+  width: 100%;
+  height: 40vmax;
+  opacity: 0.5;
+}
+
+.navBar {
+  width: 100%;
+  height: 26px;
+  position: absolute;
+  top: 2%;
+  bottom: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  transition: ease-in-out;
+  /* right: 15%; */
+}
+
+.barText {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  /* text-shadow:0 1px 1px rgb(68, 65, 65); */
+}
+
+.barText:hover {
+  /* text-decoration: 2px underline rgb(246, 255, 0); */
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+
+.frontImg {
+  width: 300px;
+  height: 540px;
+  position: absolute;
+  top: 40%;
+  /* bottom: 90%; */
+  display: flex;
+  margin-left: 15%;
+  box-sizing: border-box;
+}
+
+.phnImg {
+  width: 500px;
+  height: 570px;
+  /* border: 2px solid rgb(255, 47, 47); */
+  z-index: +1;
+}
+
+.contentBox {
+  width: 250px;
+  height: 510px;
+  color: rgb(194, 2, 253);
+  font-weight: 900;
+  font-size: 1.7rem;
+  position: absolute;
+  margin-left: 61px;
+  margin-top: 28px;
+  display: flex;
+  background-color: white;
+  border-radius: 27px;
+  box-shadow: 0 30px 30px 0px rgba(0, 0, 0, 0.306);
+}
+
+.radhe {
+  color: white;
+  margin-top: 17%;
+  margin-left: 14%;
+}
+
+.contentBox {
+  background-image: url("radhe_radhe\ \(3\).jpg");
+  background-size: cover;
+}
+
+.mode {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  margin-top: 70px;
+  border-radius: 7px;
+  border: 2px solid white;
+  background-color: blueviolet;
+  color: white;
+  top: 73%;
+  left: 43%;
+  z-index: +3;
+}
+
+.textContainer {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  /* border: 2px solid yellow; */
+  top: 38%;
+  left: 45%;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0 1px 1px rgb(68, 65, 65);
+}
+
+.heading {
+  color: white;
+  font-size: 55px;
+}
+
+.para {
+  color: white;
+  margin-top: 20px;
+}
+
+.btnApp {
+  width: 150px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 25px;
+  /* box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.306); */
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  background-color: rgb(194, 2, 253);
+}
+
+/* javaScript Code For light mode ANd Dark Mode Lets Ready For THis  */
+.dark {
+  background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .textContainer {
+    width: 300px;
+    height: 400px;
+    top: 8%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0 1px 1px rgb(68, 65, 65);
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+
+  .para {
+    font-size: 12px;
+  }
+
+  .frontImg {
+    width: 300px;
+    height: 540px;
+    position: absolute;
+    top: 85%;
+    /* bottom: 90%; */
+    display: flex;
+    margin-left: 3%;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 90%;
+    height: 40vmax;
+    /* border: 2px solid black; */
+    margin-top: 2%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 2, 253);
+    position: relative;
+    box-shadow: 0 30px 30px 0px rgba(0, 0, 0, 0.306);
+  }
+
+  .heroImg {
+    width: 100%;
+    height: 40vmax;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+
+  .img {
+    width: 100%;
+    height: 40vmax;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.slider-container {
+    width: 80%;
+    height: 40vmax;
+    position: absolute;
+    left: 10%;
+    top: 7%;
+}
+
+.slide {
+    width: 80%;
+    height: 40vmax;
+    background-size: cover;
+    position: absolute;
+} 
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.btnContainer {
+    width: 80%;
+    height: 40px;
+    z-index: +2;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 25%;
+    padding: 10px;
+}
+
+
+.prev {
+    width: 60px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 90%;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid white;
+   
+}
+
+.next {
+    width: 60px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid white;
+}

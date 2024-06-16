@@ -1,0 +1,9 @@
+.container {
+    height:  200px;
+    width: 500px;
+    background-color: rgba(137, 43, 226, 0.463);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+}
